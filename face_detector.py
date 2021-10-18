@@ -4,11 +4,6 @@ import cv2
 
 trained_face_data = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-# choose an image to detect faces in (imread = image read)
-#img = cv2.imread('Robert_Downey_Jr..jpg')
-#img = cv2.imread('twice.jpg') 
-# MUST convert to grayscale (only 1 instead of 3 in rgb)
-
 # capture from a webcam (0 = default cam)
 webcam = cv2.VideoCapture('Me at the zoo-jNQXAC9IVRw.webm')
 
