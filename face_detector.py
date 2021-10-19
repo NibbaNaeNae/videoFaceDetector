@@ -31,3 +31,4 @@ while True:
         break
 
 print("Code completed")
+print("UwU")
