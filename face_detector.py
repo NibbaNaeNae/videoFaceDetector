@@ -24,7 +24,10 @@ while True:
     
     cv2.imshow("NibbaNaeNae's face detector", frame)
     key = cv2.waitKey(1)
-    print(face_coordinates)
+      if face_coordinates == ():
+        print("Not picked up face")
+    else:
+        print(face_coordinates)
 
     # break out of program using ascii for X/x 
     if key==88 or key==120:
