@@ -24,7 +24,7 @@ while True:
     
     cv2.imshow("NibbaNaeNae's face detector", frame)
     key = cv2.waitKey(1)
-      if face_coordinates == ():
+    if face_coordinates == ():
         print("Not picked up face")
     else:
         print(face_coordinates)
